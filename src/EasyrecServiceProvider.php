@@ -62,8 +62,6 @@ class EasyrecServiceProvider extends ServiceProvider
 
             $apiVersion = isset($config['apiVersion']) ? $config['apiVersion'] : null;
 
-
-
             return new Easyrec($baseUrl, $apiKey, $tenantId, $apiVersion);
         });
 
