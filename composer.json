@@ -1,23 +1,27 @@
 {
     "name": "hafael/easyrec-laravel",
+    "type": "package",
     "description": "Laravel 5.3+ integration for the Easyrec package.",
     "keywords": [
+        "easyrec",
         "php",
         "hafael",
         "laravel",
-        "easyrec"
+        "recommendation",
+        "ranking"
     ],
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "VerdeIT",
-            "email": "villa655321verde@gmail.com"
+            "email": "villa655321verde@gmail.com",
+            "homepage": "https://github.com/hafael"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "illuminate/support": ">=5.3.0",
-        "hafael/easyrec-php": "master"
+        "hafael/easyrec-php": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0.0",
@@ -36,23 +40,5 @@
             "Hafael\\EasyrecLaravel\\": "packages/hafael/easyrec-laravel/src"
         }
     },
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "hafael/easyrec-php",
-                "version": "master",
-                "source": {
-                    "type" : "git",
-                    "url" : "git://github.com/hafael/easyrec-php.git",
-                    "reference" : "master"
-                },
-                "dist": {
-                    "url": "https://github.com/hafael/easyrec-php/archive/master.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    ]
+    "minimum-stability": "dev"
 }
