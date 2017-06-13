@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hafael\\EasyrecLaravel\\": "src/"
+            "Hafael\\Easyrec\\Laravel\\": "src/"
         }
     },
     "autoload-dev": {
@@ -37,7 +37,7 @@
             "tests/EasyrecLaravelTest.php"
         ],
         "psr-4": {
-            "Hafael\\EasyrecLaravel\\": "packages/hafael/easyrec-laravel/src"
+            "Hafael\\Easyrec\\Laravel\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
